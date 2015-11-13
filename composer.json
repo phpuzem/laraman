@@ -1,0 +1,21 @@
+{
+  "name": "phpuzem/laraman",
+  "description": "Laravel 5.1 Atasözleri Paketi",
+  "license": "MIT",
+  "homepage": "https://github.com/phpuzem/laraman",
+  "authors": [
+    {
+      "name": "Halil Coşdu",
+      "email": "info@phpuzem.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Phpuzem\\Laraman\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "illuminate/support": "~5"
+  }
+}
