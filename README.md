@@ -2,6 +2,12 @@
 
 ```code
 Kullanılışı aşağıda belirtilen şekildedir.
+
+config.php
+providers
+        Phpuzem\Laraman\LaramanServiceProvider::class,
+aliases
+        'Laraman' => Phpuzem\Laraman\Facades\Laraman::class,
 ```
 
 
